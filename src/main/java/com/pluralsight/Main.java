@@ -24,5 +24,8 @@ public class Main {
         System.out.println(formatedDate4);
         // Initial attempt without GMT time
 
+        DateTimeFormatter dateTimeFormatter5 = DateTimeFormatter.ofPattern("h:mm 'on' dd-MMM-yyyy");
+        System.out.println(dateTime.format(dateTimeFormatter5));
+
     }
 }
